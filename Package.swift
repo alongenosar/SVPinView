@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "SVPinView",
-            path: "SVPinView/Source/Classes",
+            path: "./SVPinView/Source/Classes",
             resources: [
                 .copy("SVPinView/Source/XIB's/SVPinView.xib"),
                 .copy("SVPinView/Source/XIB's/SVPinCell.xib"),
