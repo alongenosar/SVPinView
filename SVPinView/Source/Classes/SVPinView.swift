@@ -102,6 +102,7 @@ public class SVPinView: UIView {
     
     private func loadView(completionHandler: (()->())? = nil) {
         let podBundle = Bundle(for: SVPinView.self)
+        print("***",podBundle)
         let nib = UINib(nibName: "SVPinView", bundle: podBundle)
         view = nib.instantiate(withOwner: self, options: nil)[0] as? UIView
         
