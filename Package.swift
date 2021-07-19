@@ -15,9 +15,9 @@ let package = Package(
             name: "SVPinView",
             path: "SVPinView/Source/Classes",
             resources: [
-                .process("SVPinView.xib"),
-                .process("SVPinCell.xib"),
-               // .copy("./SVPinView/Source/XIB's"),
+                .copy("SVPinView.xib"),
+                .copy("SVPinCell.xib"),
+               .copy("./SVPinView/Source/XIB's/"),
             ]
         )
     ]
